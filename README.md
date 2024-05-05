@@ -22,7 +22,8 @@ Enter the pounds of potatoes available to purchase when prompted.
 ```Enter pounds of potatoes available to purchase: 1250```
 
 7. **Sample Output**: 
-```Fetching potato data from the server...
+```
+Fetching potato data from the server...
 Enter pounds of potatoes available to purchase: 1250
 User input: 1250 pounds
 Downloading CSV file...
@@ -32,7 +33,8 @@ CSV data processed successfully.
 Displaying the three cheapest suppliers:
 1. Greenhouse Growers - Price per pound: $0.36, Quantity available: 1250 pounds
 2. Green Thumb Farms - Price per pound: $0.40, Quantity available: 2700 pounds
-3. PotatoCo - Price per pound: $0.40, Quantity available: 1500 pounds```
+3. PotatoCo - Price per pound: $0.40, Quantity available: 1500 pounds.
+```
 
 7. **Contact Information**:
 - Author: Aditya Shinde
