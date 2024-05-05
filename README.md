@@ -22,7 +22,7 @@ Enter the pounds of potatoes available to purchase when prompted.
 Enter pounds of potatoes available to purchase: 1250
 
 7. **Sample Output**: 
-Fetching potato data from the server...\n
+Fetching potato data from the server...`\n`
 Enter pounds of potatoes available to purchase: 1250
 User input: 1250 pounds
 Downloading CSV file...
