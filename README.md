@@ -36,7 +36,7 @@ Displaying the three cheapest suppliers:
 3. PotatoCo - Price per pound: $0.40, Quantity available: 1500 pounds.
 ```
 
-8. **External Libraries Used**:
+## External Libraries Used:
 ### axios:
 Description: Axios is a promise-based HTTP client for the browser and Node.js. It allows you to make HTTP requests to fetch data from servers.
 Link: https://www.npmjs.com/package/axios
@@ -48,11 +48,11 @@ Link: csv-parser
 ### readline:
 Description: Readline is a built-in Node.js module that provides an interface for reading data from a Readable stream (such as process.stdin) one line at a time.
 
-**References**:
+## References:
 ### Node.js Documentation:
 Description: The Node.js documentation provides detailed information and examples for using the various modules and features of Node.js, including the readline module used for user input.
 Link: Node.js Documentation
 
-9. **Contact Information**:
+## Contact Information:
 - Author: Aditya Shinde
 - Email: s.adityashinde11@gmail.com
