@@ -43,7 +43,7 @@ Link: https://www.npmjs.com/package/axios
 
 ### csv-parser:
 Description: csv-parser is a streaming parser for parsing CSV files in Node.js. It converts CSV input into arrays or objects.
-Link: csv-parser
+Link: https://www.npmjs.com/package/csv-parser
 
 ### readline:
 Description: Readline is a built-in Node.js module that provides an interface for reading data from a Readable stream (such as process.stdin) one line at a time.
