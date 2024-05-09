@@ -1,0 +1,42 @@
+﻿
+@model List<WebApplication1.Models.Potato>
+
+<h1>Restaurant Supply Co. Potato Stock Manager</h1>
+<br/>
+<br/>
+
+@if (Model != null && Model.Any())
+{
+    <h2>Cheapest Potato Sellers:</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Supplier</th>
+                <th>Unit Weight (lbs)</th>
+                <th>Unit Price</th>
+                <th>Quantity Available</th>
+                <th>Price Per Pound</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var potato in Model)
+            {
+                <tr>
+                    <td>@potato.SupplierName</td>
+                    <td>@potato.UnitWeight.ToString("0.00")</td>
+                    <td>&#36;@potato.UnitPrice.ToString("0.00")</td>
+                    <td>@potato.QuantityAvailable</td>
+                    <td>&#36;@potato.PricePerPound.ToString("0.00")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No potato data found.</p>
+}
+
+<br/>
+<br/>
+<a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Go Home</a>

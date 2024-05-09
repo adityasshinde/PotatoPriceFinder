@@ -1,0 +1,13 @@
+﻿@{
+    ViewData["Title"] = "Potato Stock Manager";
+}
+
+@model List<WebApplication1.Models.Potato>
+
+<h1>Potato Stock Manager</h1>
+
+<p>Enter the minimum number of pounds available to purchase (optional):</p>
+<form asp-action="Index" asp-controller="Potato" method="get">
+    <input type="number" name="minAvailablePounds" min="0" />
+    <button type="submit">Find Available Potatoes</button>
+</form>
