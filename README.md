@@ -28,8 +28,9 @@ The application will display the available potato sellers along with their detai
 You can adjust the minimum available pounds to filter the results further.
 
 ## References:
-**.NET SDK:** ```https://dotnet.microsoft.com/en-us/download```
-**Visual Studio:** ```https://visualstudio.microsoft.com/downloads/```
+**.NET SDK:** https://dotnet.microsoft.com/en-us/download
+
+**Visual Studio:** https://visualstudio.microsoft.com/downloads/
 
 
 ## Contact Information:
