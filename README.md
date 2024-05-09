@@ -7,7 +7,7 @@ This is an ASP.NET project for managing potato stock. It allows users to view av
 Before running this project, ensure you have the following installed:
 
 - [.NET SDK](https://dotnet.microsoft.com/download)
-- [Visual Studio](https://visualstudio.microsoft.com/downloads/) or [Visual Studio Code](https://code.visualstudio.com/download) (optional)
+- [Visual Studio](https://visualstudio.microsoft.com/downloads/)
 
 ## Instructions for Running the Program
 
