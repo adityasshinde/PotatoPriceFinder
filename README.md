@@ -15,9 +15,9 @@ Before running this project, ensure you have the following installed:
 
 2. **Navigate to the Project Directory**: 
 
-3. **Restore NuGet packages:**: dotnet restore
+3. **Restore NuGet packages:** dotnet restore
 
-4. **Run the project:**: dotnet run
+4. **Run the project:** dotnet run
 
 
 
@@ -28,8 +28,8 @@ The application will display the available potato sellers along with their detai
 You can adjust the minimum available pounds to filter the results further.
 
 ## References:
-.NET SDK: ```https://dotnet.microsoft.com/en-us/download```
-Visual Studio: ```https://visualstudio.microsoft.com/downloads/```
+**.NET SDK:** ```https://dotnet.microsoft.com/en-us/download```
+**Visual Studio:** ```https://visualstudio.microsoft.com/downloads/```
 
 
 ## Contact Information:
