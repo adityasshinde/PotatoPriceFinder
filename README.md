@@ -1,8 +1,13 @@
-# Potato Price Finder
+# Potato Stock Manager
 
-## Description
+This is an ASP.NET project for managing potato stock. It allows users to view available potato sellers and filter them based on the minimum quantity available.
 
-The Potato Price Finder is a tool that helps Restaurant Supply Co. find the cheapest providers to buy potatoes from wholesale, so they can provide the lowest prices to their retail customers. The latest potato information for this quarter is fetched from a CSV file and processed to display the three cheapest suppliers in terms of price per pound.
+## Prerequisites
+
+Before running this project, ensure you have the following installed:
+
+- [.NET SDK](https://dotnet.microsoft.com/download)
+- [Visual Studio](https://visualstudio.microsoft.com/downloads/) or [Visual Studio Code](https://code.visualstudio.com/download) (optional)
 
 ## Instructions for Running the Program
 
@@ -10,48 +15,22 @@ The Potato Price Finder is a tool that helps Restaurant Supply Co. find the chea
 
 2. **Navigate to the Project Directory**: 
 
-3. **Install Dependencies**: npm install
+3. **Restore NuGet packages:**: dotnet restore
 
-4. **Run the Program**: node potatoPriceFinder.js
+4. **Run the project:**: dotnet run
 
 
-5. **Follow the Prompts**: 
-Enter the pounds of potatoes available to purchase when prompted.
 
-6. **Sample Input**: 
-```Enter pounds of potatoes available to purchase: 1250```
 
-7. **Sample Output**: 
-```
-Fetching potato data from the server...
-Enter pounds of potatoes available to purchase: 1250
-User input: 1250 pounds
-Downloading CSV file...
-CSV file downloaded successfully.
-Processing CSV data...
-CSV data processed successfully.
-Displaying the three cheapest suppliers:
-1. Greenhouse Growers - Price per pound: $0.36, Quantity available: 1250 pounds
-2. Green Thumb Farms - Price per pound: $0.40, Quantity available: 2700 pounds
-3. PotatoCo - Price per pound: $0.40, Quantity available: 1500 pounds.
-```
-
-## External Libraries Used:
-### axios:
-Description: Axios is a promise-based HTTP client for the browser and Node.js. It allows you to make HTTP requests to fetch data from servers.
-Link: https://www.npmjs.com/package/axios
-
-### csv-parser:
-Description: csv-parser is a streaming parser for parsing CSV files in Node.js. It converts CSV input into arrays or objects.
-Link: https://www.npmjs.com/package/csv-parser
-
-### readline:
-Description: Readline is a built-in Node.js module that provides an interface for reading data from a Readable stream (such as process.stdin) one line at a time.
+## Usage:
+Enter the minimum number of pounds available to purchase in the provided input field and click the "Find Available Potatoes" button.
+The application will display the available potato sellers along with their details such as supplier name, unit weight, unit price, quantity available, and price per pound.
+You can adjust the minimum available pounds to filter the results further.
 
 ## References:
-### Node.js Documentation:
-Description: The Node.js documentation provides detailed information and examples for using the various modules and features of Node.js, including the readline module used for user input.
-Link: Node.js Documentation
+.NET SDK: ```https://dotnet.microsoft.com/en-us/download```
+Visual Studio: ```https://visualstudio.microsoft.com/downloads/```
+
 
 ## Contact Information:
 - Author: Aditya Shinde
